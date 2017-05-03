@@ -23,6 +23,7 @@ public class ServiceRegistry {
 
 	private String registryAddress;
 
+	//配置文件配置
 	public ServiceRegistry(String registryAddress) {
 		//zookeeper的地址
 		this.registryAddress = registryAddress;

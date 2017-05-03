@@ -62,7 +62,7 @@ public class SerializationUtil {
      */
     public static <T> T deserialize(byte[] data, Class<T> cls) {
         try {
-        	/*
+        	/**
         	 * 如果一个类没有参数为空的构造方法时候，那么你直接调用newInstance方法试图得到一个实例对象的时候是会抛出异常的
         	 * 通过ObjenesisStd可以完美的避开这个问题
         	 * */
